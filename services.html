@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
         <meta charset="utf-8">
         <title>Our Services | Expansia</title>
@@ -18,12 +16,12 @@
             <meta property="og:title" content="Our Services | Expansia">
             <meta property="og:description" content="We offer multiple services: Supplier Identification, Assessment and Enhancement, Technical and Legal Consultation, Product and Packaging Personalization, etc">
                 <link rel="icon" type="image/png" href="themes/immoricon/assets/images/favicon.png">
-                <link href="../cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+                <link href="out/cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
                 <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
-                <link rel="stylesheet" href="../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-                <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                <link rel="stylesheet" href="out/maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+                <link rel="stylesheet" href="out/cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
                 <link href="combine/1d01ece5cb6c0e55f9d3761f4a01c8fd-1630702972.css" rel="stylesheet">
         <link rel="stylesheet" href="plugins/martin/forms/assets/css/uploader.css">
 
@@ -38,29 +36,6 @@
         </script>
     </head>
     <body itemscope itemtype="http://schema.org/Corporation" itemid="http://www.immoricon.com/services">
-
-        <!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
-<script>
-	window.fbAsyncInit = function() {
-	  FB.init({
-	    xfbml            : true,
-	    version          : 'v10.0'
-	  });
-	};
-	(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = '../connect.facebook.net/en_US/sdk/xfbml.customerchat.html';
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat"
-	attribution="setup_tool"
-	page_id="116035303167651">
-</div>
                 <header id="layout-header">
             <nav class="navbar fixed-top navbar-expand-lg py-lg-4 py-3">
     <div class="container">
@@ -607,100 +582,48 @@
     <div class="container">
         <div class="row gx-xxl-5 pt-lg-50 pt-5">
             <div class="col-lg-6 order-1 order-lg-0">
-                <form method="POST" onsubmit="return false;" action="#" accept-charset="UTF-8"  class="message-form box-shadow p-xl-5 p-lg-4 p-md-5 p-sm-4 py-4 px-3" data-request-validate="" data-request-flash=""><input name="_session_key" type="hidden" value="KSbKuiiffHKpxuD9RNK8fF7IUKvFWCqW1Gk9HLAK"><input name="_token" type="hidden" value="zKBrjkBipvThJzzacPbCz7s3g1u62BIUDzjmDor2">
-                    <div id="uploadForm_forms_flash" class="form-message-alert"></div>
-                    <h5 class="h5 mb-4">Product request form</h5>
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-                            <label class="form-label" for="fullName">Full Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" name="fullName">
-                            <small class="text-danger" data-validate-for="fullName"></small>
-                        </div>
-                        <div class="col-sm-6">
-                            <label class="form-label" for="email">Email <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control" name="email">
-                            <small class="text-danger" data-validate-for="email"></small>
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label" for="productDescription">Product description <span class="text-danger">*</span></label>
-                            <textarea class="form-control" name="productDescription" rows="2"></textarea>
-                            <small class="text-danger" data-validate-for="productDescription"></small>
-                        </div>
-                        <div class="col-sm-6">
-                            <label class="form-label" for="size">Size</label>
-                            <input type="text" class="form-control" name="size">
-                        </div>
-                        <div class="col-sm-6">
-                            <label class="form-label" for="quantities">Quantities</label>
-                            <input type="text" class="form-control" name="quantities">
-                        </div>
-                        <div class="col-sm-6">
-                            <label class="form-label" for="icoterms">Icoterms</label>
-                            <input type="text" class="form-control" name="icoterms">
-                        </div>
-                        <div class="col-sm-6">
-                            <label class="form-label" for="certificates">Certificates required</label>
-                            <input type="text" class="form-control" name="certificates">
-                        </div>
-                        <div class="col-12">
-                            <label for="formFile" class="form-label mb-1">Photo or technical drawing of the product</label>
-                            <small class="d-block mb-2 text-xs">* Supported formats: jpg, png, pdf</small>
-                            
-    
-        <div
-    class="responsiv-uploader-fileupload style-file-multi is-multi "
-    data-control="fileupload"
-    data-template="#uploaderTemplateuploadForm"
-    data-unique-id="uploadForm"
-    data-file-types=".jpg,.png,.pdf">
-
-    <!-- Field placeholder -->
-    <input type="hidden" name="_uploader[files]" value="" />
-
-    <!-- Upload Button -->
-    <button type="button" class="ui button btn btn-blue-ghost btn-hover-blue-full fw-normal oc-icon-upload upload-button">
-        Upload Files
-        <i class="las la-file-upload ms-2"></i>
-    </button>
-
-    <!-- Existing files -->
-    <div class="upload-files-container">
-            </div>
-</div>
-
-<!-- Template for new files -->
-<script type="text/template" id="uploaderTemplateuploadForm">
-    <div class="upload-object dz-preview dz-file-preview">
-        <div class="icon-container">
-            <img data-dz-thumbnail src="plugins/martin/forms/assets/imgs/upload.png" />
+             <form method="POST" onsubmit="return false;" action="#" accept-charset="UTF-8" class="message-form box-shadow p-xl-5 p-lg-4 p-md-5 p-sm-4 py-4 px-3" data-request-validate="" data-request-flash="">
+    <input name="_session_key" type="hidden" value="KSbKuiiffHKpxuD9RNK8fF7IUKvFWCqW1Gk9HLAK">
+    <input name="_token" type="hidden" value="zKBrjkBipvThJzzacPbCz7s3g1u62BIUDzjmDor2">
+    <div id="uploadForm_forms_flash" class="form-message-alert"></div>
+    <h5 class="h5 mb-4">Product request form</h5>
+    <div class="row g-3">
+        <div class="col-sm-6">
+            <label class="form-label" for="fullName">Full Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" name="fullName" id="fullName">
+            <small class="text-danger" data-validate-for="fullName"></small>
         </div>
-        <div class="info">
-            <h4 class="filename">
-                <span data-dz-name></span>
-            </h4>
-            <p class="size" data-dz-size></p>
-            <p class="error"><span data-dz-errormessage></span></p>
+        <div class="col-sm-6">
+            <label class="form-label" for="email">Email <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" name="email" id="email">
+            <small class="text-danger" data-validate-for="email"></small>
         </div>
-        <div class="meta">
-            <a
-                href="javascript:;"
-                class="upload-remove-button"
-               
-                data-request-confirm="Are you sure ?"
-                >&times;</a>
-            <div class="progress-bar"><span class="upload-progress" data-dz-uploadprogress></span></div>
+        <div class="col-12">
+            <label class="form-label" for="productDescription">Product description <span class="text-danger">*</span></label>
+            <textarea class="form-control" name="productDescription" id="productDescription" rows="2"></textarea>
+            <small class="text-danger" data-validate-for="productDescription"></small>
+        </div>
+        <div class="col-sm-6">
+            <label class="form-label" for="size">Size</label>
+            <input type="text" class="form-control" name="size" id="size">
+        </div>
+        <div class="col-sm-6">
+            <label class="form-label" for="quantities">Quantities</label>
+            <input type="text" class="form-control" name="quantities" id="quantities">
+        </div>
+        <div class="col-sm-6">
+            <label class="form-label" for="icoterms">Icoterms</label>
+            <input type="text" class="form-control" name="icoterms" id="icoterms">
+        </div>
+        <div class="col-sm-6">
+            <label class="form-label" for="certificates">Certificates required</label>
+            <input type="text" class="form-control" name="certificates" id="certificates">
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary btn-hover-blue-ghost w-100" type="submit" data-attach-loading> Submit Request </button>
         </div>
     </div>
-</script>
-    
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary btn-hover-blue-ghost w-100" type="submit" data-attach-loading>
-                                Submit Request
-                            </button>
-                        </div>
-                    </div>
-                </form>
+</form>
             </div>
             <div class="col-lg-5 text-white pt-lg-50 order-0 order-lg-1 mb-5 mb-lg-0 animate__animated animate__fadeInUp wow" data-wow-delay=".2s">
                 <div class="heading-wrapper mb-xxl-5 mb-4">
@@ -933,8 +856,8 @@
     </div>
 </div>        </footer>
 
-                <script src="../code.jquery.com/jquery-3.5.1.min.js"></script>
-                <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+                <script src="out/code.jquery.com/jquery-3.5.1.min.js"></script>
+                <script src="out/cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
                 <script src="themes/immoricon/assets/vendor/wow.min.js"></script>
                 <script src="themes/immoricon/assets/js/main.js"></script>
         <script>
